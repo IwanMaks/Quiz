@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Quiz</title>
+</head>
+<body>
+
+<div class="pass-test pass-test__content">
+    <button class="button pass-test__button button--primary">
+        Пройти тест
+    </button>
+</div>
+
+<div class="overlay">
+
+</div>
+
+<div class="quiz">
+    <div class="quiz__content">
+        <div class="quiz-head">
+            <a href="index.html" class="quiz-head__logo">
+                <img src="./img/logo.svg" alt="">
+            </a>
+            <strong class="quiz-head__hint">Подкажем, какая уборка подходит для Вас</strong>
+        </div>
+        <div class="quiz-body">
+            <form action="#" method="post" class="form quiz-body__form">
+                <fieldset class="form__fieldset" style="display: none">
+                    <div class="form__title">Ваша квартира после ремонта?</div>
+                    <div class="form__wrap">
+                        <label for="label-choise-yes_first" class="form__label-radio active-radio">
+                            <input type="radio" name="chose-first" class="form__radio" id="label-choise-yes_first" value="Да">
+                            <div class="form__choise">
+                                <div class="form__image">
+                                    <img src="./img/first.jpg" alt="">
+                                </div>
+                                <div class="form__answer">Да</div>
+                            </div>
+                        </label>
+                        <label for="label-choise-no_first" class="form__label-radio">
+                            <input type="radio" name="chose-first" class="form__radio" id="label-choise-no_first" value="Нет">
+                            <div class="form__choise">
+                                <div class="form__image">
+                                    <img src="./img/second.jpg" alt="">
+                                </div>
+                                <div class="form__answer">Нет</div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="form-button form-button__indent">
+                        <button class="button form-button__btn-next button--primary">Далее</button>
+                    </div>
+                </fieldset>
+                <fieldset class="form__fieldset" style="display: block">
+                    <div class="form__title">Укажите площадь Вашей квартиры/дома?</div>
+                    <div class="form__column">
+                        <div class="form__group active-checkbox">
+                            <input type="checkbox" name="user_check_1" id="check_1" class="form__input" value="Менее 50 кв м">
+                            <label for="check_1" class="form__label-checkbox">Менее 50 кв м</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="checkbox" name="user_check_2" id="check_2" class="form__input" value="От 50 до 100 кв м">
+                            <label for="check_2" class="form__label-checkbox">От 50 до 100 кв м</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="checkbox" name="user_check_3" id="check_3" class="form__input" value="Более 100 кв м">
+                            <label for="check_3" class="form__label-checkbox">Более 100 кв м</label>
+                        </div>
+                    </div>
+                    <div class="form-button form-button__indent">
+                        <button class="form-button__btn-prev"></button>
+                        <button class="button button--primary form-button__btn-next">Далее</button>
+                    </div>
+                </fieldset>
+                <fieldset class="form__fieldset" style="display: none"></fieldset>
+                <fieldset class="form__fieldset" style="display: none"></fieldset>
+                <fieldset class="form__fieldset" style="display: none"></fieldset>
+            </form>
+        </div>
+        <div class="quiz-position">
+            <div class="quiz-position__bg">
+                <span class="quiz-position__on">Тест пройден на</span>
+                <div class="quiz-position__percent">
+                    <span id="quiz-position__percent-change">25</span> %
+                </div>
+                <span class="quiz-position__find-out">Узнайте, какая
+скидка ждет вас
+в конце теста!</span>
+                <div class="quiz-position__img"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
