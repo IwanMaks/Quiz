@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0186f8c-72ac-4272-955e-6b82846c6dc2" name="Default Changelist" comment="" />
+    <list default="true" id="85ecf806-0e0b-4287-83d0-4feb6955a53d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/order-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/present.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/prezent2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/quiz-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/quiz_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/quiz_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/quiz_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/quiz_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Quiz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/NautilusPompilius.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/NautilusPompilius.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/NautilusPompilius.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/NautilusPompilius.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/NautilusPompilius.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/NautilusPompilius.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/NautilusPompilius.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/NautilusPompilius.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arr-prev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/first.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/second.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,38 +49,31 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1jMRaqopIdeKJDghFSS0oWfwnJa" />
+  <component name="ProjectId" id="1jQHjLcbzx4JkNiJIeoHVArPQan" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0186f8c-72ac-4272-955e-6b82846c6dc2" name="Default Changelist" comment="" />
-      <created>1603612040902</created>
+      <changelist id="85ecf806-0e0b-4287-83d0-4feb6955a53d" name="Default Changelist" comment="" />
+      <created>1603729528599</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603612040902</updated>
-      <workItem from="1603612042177" duration="11824000" />
+      <updated>1603729528599</updated>
+      <workItem from="1603729529709" duration="16000" />
     </task>
     <servers />
   </component>
@@ -49,17 +81,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="57" key="SettingsEditor" timestamp="1603612058721">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1603729545161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603612058721" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1603620510837">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603620510837" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603626792389">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603626792389" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603729545161" />
   </component>
 </project>
