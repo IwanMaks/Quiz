@@ -79,7 +79,7 @@
                         </div>
                     </fieldset>
                     <fieldset class="form__fieldset" style="display: none;">
-                        <div class="form__title">Как давно у Вас проводилась генеральная уборка??</div>
+                        <div class="form__title">Как давно у Вас проводилась генеральная уборка?</div>
                         <div class="form__column">
                             <div class="form__group active-checkbox">
                                 <input type="checkbox" name="user_check_4" id="check_4" class="form__input"
