@@ -12,7 +12,7 @@ $json = json_decode($data, true);
 $message = "Новая заявка с сайта \n\n";
 
 if ($json['step0']['question'] && $json['step0']['answers']) {
-    $message .= $json['step0']['question'] . " - " . implode(", ", $json['step0']['answers']) . "\n";
+    $message .= "Квартира после ремонта? - " . implode(", ", $json['step0']['answers']) . "\n";
 } else {
     $response = [
         "status" => "error",
@@ -21,7 +21,7 @@ if ($json['step0']['question'] && $json['step0']['answers']) {
 }
 
 if ($json['step1']['question'] && $json['step1']['answers']) {
-    $message .= $json['step1']['question'] . " - " . implode(", ", $json['step1']['answers']) . "\n";
+    $message .= "Площадь квартиры - " . implode(", ", $json['step1']['answers']) . "\n";
 } else {
     $response = [
         "status" => "error",
@@ -30,7 +30,7 @@ if ($json['step1']['question'] && $json['step1']['answers']) {
 }
 
 if ($json['step2']['question'] && $json['step2']['answers']) {
-    $message .= $json['step2']['question'] . " - " . implode(", ", $json['step2']['answers']) . "\n";
+    $message .= "Как давно проводилась генеральная уборка - " . implode(", ", $json['step2']['answers']) . "\n";
 } else {
     $response = [
         "status" => "error",
@@ -39,7 +39,7 @@ if ($json['step2']['question'] && $json['step2']['answers']) {
 }
 
 if ($json['step3']['question'] && $json['step2']['answers']) {
-    $message .= $json['step3']['question'] . " - " . implode(", ", $json['step3']['answers']) . "\n\n";
+    $message .= "Помыть окна? - " . implode(", ", $json['step3']['answers']) . "\n\n";
 } else {
     $response = [
         "status" => "error",
